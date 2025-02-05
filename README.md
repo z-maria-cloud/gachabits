@@ -42,5 +42,10 @@ A uncommon axe that is quite dangerous
 A mythic sword that is quite tiny
 A common dagger that is quite awful
 `
+## What's included
+
+- `gachabit.json`: contains the words
+- `analysis.py`: lists the words categories and counts the total words included in the JSON file
+- `example.py`: simple use case example
 
 *more coming soon*
