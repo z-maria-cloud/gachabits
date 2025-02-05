@@ -20,7 +20,7 @@ Gachabits is a single JSON file that basically looks like this:
 
 We can programmatically choose words and combine them. For example, this simple Python snippet generates random weapons:
 
-```
+```python
 import random
 import json
 
