@@ -8,17 +8,19 @@ I mainly use Gachabits to spark creative ideas on what to draw or what to write 
 
 ## What's inside?
 
-Gachabits is a single JSON file that sort of looks like this:
+Gachabits is a single JSON file that basically looks like this:
 
-`"weapons": ["sword", "bow", "crossbow", "axe", "dagger", "wand", "staff"],
- "rarity": ["common", "uncommon", "rare", "mythic", "legendary"],
-"jewelry": ["necklace", "earrings", "pendant", "bracelet", "ring", "hairpin"],`
+```
+"weapons": ["sword", "bow", "crossbow", "axe", "dagger", "wand", "staff"],
+"rarity": ["common", "uncommon", "rare", "mythic", "legendary"],
+"jewelry": ["necklace", "earrings", "pendant", "bracelet", "ring", "hairpin"],
+```
 
 ## How can I use it?
 
 We can programmatically choose words and combine them. For example, this simple Python snippet generates random weapons:
 
-`
+```
 import random
 import json
 
@@ -33,15 +35,16 @@ with open('gachabits.json', 'r') as file:
 	gacha = json.load(file)
 
 print(simple_weapon())
-`
+```
 
 Will output results similar to these:
 
-`
+```
 A uncommon axe that is quite dangerous
 A mythic sword that is quite tiny
 A common dagger that is quite awful
-`
+```
+
 ## What's included
 
 - `gachabit.json`: contains the words
