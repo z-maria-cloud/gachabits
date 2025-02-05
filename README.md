@@ -11,9 +11,11 @@ I mainly use Gachabits to spark creative ideas on what to draw or what to write 
 Gachabits is a single JSON file that basically looks like this:
 
 ```
+...
 "weapons": ["sword", "bow", "crossbow", "axe", "dagger", "wand", "staff"],
 "rarity": ["common", "uncommon", "rare", "mythic", "legendary"],
 "jewelry": ["necklace", "earrings", "pendant", "bracelet", "ring", "hairpin"],
+...
 ```
 
 ## How can I use it?
@@ -47,8 +49,8 @@ A common dagger that is quite awful
 
 ## What's included
 
-- `gachabit.json`: contains the words
-- `analysis.py`: lists the words categories and counts the total words included in the JSON file
+- `gachabits.json`: contains lists of words
+- `analysis.py`: lists the word categories and counts the total words included in the JSON file
 - `example.py`: simple use case example
 
 *more coming soon*
